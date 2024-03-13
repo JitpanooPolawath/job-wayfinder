@@ -8,15 +8,7 @@ import {
   and,
 } from "firebase/firestore/lite";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBFZ_j0MqAWJ5_eRAbxNJ7rQxTHkGTS4bk",
-  authDomain: "jobswayfinder.firebaseapp.com",
-  projectId: "jobswayfinder",
-  storageBucket: "jobswayfinder.appspot.com",
-  messagingSenderId: "600808263055",
-  appId: "1:600808263055:web:326fc31509c11812e08ffa",
-  measurementId: "G-F9CPN0QJ30",
-};
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
